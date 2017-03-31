@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context="com.ysm0622.live.LoginActivity"
+android:background="@color/colorPrimary">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/logo"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true" />
+
+<TextView
+    android:id="@+id/copyright"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="@string/copyright"
+    android:textColor="@color/colorWhite"
+    android:textSize="10sp"
+    android:typeface="serif"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>
