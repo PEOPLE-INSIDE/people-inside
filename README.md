@@ -7,7 +7,8 @@
 - At meal time, there are too many people in the restaurant. So we have to wait in a restaurant. We want to check the number of indoor people in advance.
 
 ### Why did you use ultrasonic sensors?
-- It is cheap and it is unaffected by the surroundings.
+- It is inexpensive so we can make system at low cost.
+- It is not affected by various environmental factors.
 
 ### Basic Principle& System Architecture
 - If the A sensor detects a person first, it means IN. And the reverse, it means OUT.
