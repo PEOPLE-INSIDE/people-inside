@@ -9,9 +9,10 @@
 ### Why do you use ultrasonic sensors?
 - It is cheap and it is unaffected by the surroundings.
 
-### System Architecture
+### Basic Principle& System Architecture
+- If the A sensor detects a person first, it means IN. And the reverse, it means OUT.
 - You can check the number of people with application.
-![test](./img/architecture.png)
+![principle](./img/architecture.png) ![architecture](./img/architecture.png)
 
 ### Test video
 - [Click here](https://www.youtube.com/watch?v=0aNgP3FmK0k) to watch test video.
