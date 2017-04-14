@@ -3,6 +3,9 @@
 ### What is an IN-N-OUT System?
 - IN-N-OUT System is **a real-time people counting system using ultrasonic sensors**.
 
+### What language did you use?
+- This is Arduino programming and Android programming.
+
 ### Why did you made this?
 - At meal time, there are too many people in a restaurant. So we have to wait in the restaurant. We want to check the number of indoor people in advance.
 
