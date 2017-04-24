@@ -11,7 +11,7 @@
 - It is not affected by various environmental factors.
 
 ### Basic Principle& System Architecture
-- If the A sensor detects a person first, it means IN. And the reverse, it means OUT.
+- If the A sensor detects a person first, it means *IN*. And the reverse, it means *OUT*.
 - You can check the number of people with application.
 
 ![principle](./img/principle.png) ![architecture](./img/architecture.png)
