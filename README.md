@@ -16,23 +16,23 @@ PEOPLE INSIDE is **a real-time people counting system using ultrasonic sensors**
 **Our system aims to measure indoor congestion metrics.**
 You can check the number of people with application.
 
-#### Our Purpose
+### Our Purpose
 We are focusing on three main purposes.
+
 ![purpose](./projects/img/purpose.JPG)
 
-#### Quick Start <<
+### Quick Start <<
 ```
 git clone https://github.com/PEOPLE-INSIDE/people-inside
 ```
 
 ## Getting Started
-#### Installation Environment
+### Installation Environment
 
 ![architecture](./projects/img/architecture.png)
 
-#### Basic Principle
+### Basic Principle
 If the **A** sensor detects a person first, it means *IN*. And the reverse, it means *OUT*.
->>>>>>> origin/master
 
 ![principle](./projects/img/principle.png)
 
@@ -52,9 +52,7 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 -->
 
 ## Performance
-#### Test video
-```
+### Test video
 [Click here](https://www.youtube.com/watch?v=0aNgP3FmK0k) to watch test video.
-```
 
 # Developers
