@@ -16,23 +16,22 @@ PEOPLE INSIDE is **a real-time people counting system using ultrasonic sensors**
 **Our system aims to measure indoor congestion metrics.**
 You can check the number of people with application.
 
-#### Our Purpose
+### Our Purpose
 We are focusing on three main purposes.
 ![purpose](./projects/img/purpose.JPG)
 
-#### Quick Start <<
+### Quick Start <<
 ```
 git clone https://github.com/PEOPLE-INSIDE/people-inside
 ```
 
 ## Getting Started
-#### Installation Environment
+### Installation Environment
 
 ![architecture](./projects/img/architecture.png)
 
-#### Basic Principle
+### Basic Principle
 If the **A** sensor detects a person first, it means *IN*. And the reverse, it means *OUT*.
->>>>>>> origin/master
 
 ![principle](./projects/img/principle.png)
 
@@ -52,9 +51,38 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 -->
 
 ## Performance
-#### Test video
+### Test video
 ```
 [Click here](https://www.youtube.com/watch?v=0aNgP3FmK0k) to watch test video.
 ```
 
-# Developers
+## Developers
+
+We have a core project team composed of:
+
+#### [Amber Cho](https://github.com/Seo-Hyung) - Founder/Lead
+   [![GITHUB](./projects/img/git.png)](https://github.com/Seo-Hyung)
+   [![LINK](./projects/img/link.png)](https://seo-hyung.github.io)
+
+<img align="left" width="40" height="40" src="https://avatars0.githubusercontent.com/u/18183191?v=3&s=460">
+
+Amber is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
+
+#### [Chris Yang](https://github.com/ysm0622) - Founder/Lead
+   [![GITHUB](./projects/img/git.png)](https://github.com/ysm0622)
+   [![LINK](./projects/img/link.png)](https://ysm0622.github.io/cv)
+
+<img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/18487241?v=3&s=460">
+
+Chris is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
+
+#### [Martin Kim](https://github.com/skins346) - Founder/Lead
+   [![GITHUB](./projects/img/git.png)](https://github.com/skins346)
+   [![LINK](./projects/img/link.png)](#)
+
+<img align="left" width="40" height="40" src="https://avatars2.githubusercontent.com/u/18107262?v=3&s=460">
+
+Martin is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
+
+## License
+* This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.<br>
