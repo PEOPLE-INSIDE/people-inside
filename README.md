@@ -10,7 +10,10 @@
 [![MIT LICENSE](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)](#)
 
 ## Table of contents
+- [About](#people-inside)
+- [Purpose](#our-purpose)
 - [Basic Principle](#basic-principle)
+- [Quick Start](#quick-start)
 
 ## PEOPLE INSIDE
 At meal time, there are too many people in a restaurant. So we have to wait in the restaurant. We want to check the number of indoor people in advance.
@@ -23,7 +26,7 @@ We are focusing on three main purposes.
 
 ![purpose](./projects/img/purpose.JPG)
 
-### Quick Start <<
+### Quick Start
 ```
 git clone https://github.com/PEOPLE-INSIDE/people-inside
 ```
