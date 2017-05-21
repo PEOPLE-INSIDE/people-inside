@@ -1,6 +1,6 @@
 # Algorithm of PEOPLE INSIDE System
 
-### What is an PEOPLE INSIDE System?
+### What is a PEOPLE INSIDE System?
 - PEOPLE INSIDE System is **a real-time people counting system using ultrasonic sensors**.
 
 ### Why did you made this?
