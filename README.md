@@ -28,6 +28,9 @@ We are focusing on three main purposes.
 ![purpose](./projects/img/purpose.JPG)
 
 ### Quick Start
+Several quick start options are available:
+- Install 
+
 ```
 git clone https://github.com/PEOPLE-INSIDE/people-inside
 ```
