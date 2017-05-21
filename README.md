@@ -1,6 +1,6 @@
 <br><br>
 <p align="center">
-  <img src="projects/img/pi_logo.png" width="130" height="130"/><br>
+  <img src="projects/img/pi_logo_1.png"/><br>
 <b>A real-time people counting system using ultrasonic sensors</b>
 <br><br>
 </p>
