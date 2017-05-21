@@ -1,7 +1,8 @@
 <br><br>
 <p align="center">
   <img src="projects/img/pi_logo.png"/><br>
-<b>A real-time people counting system using ultrasonic sensors</b><br><br>
+A real-time people counting system using ultrasonic sensors<br>
+ <a href="https://github.com/PEOPLE-INSIDE/people-inside"><strong>Visit POEPLE INSIDE &raquo;</strong></a>
 <br><br>
 </p>
 
