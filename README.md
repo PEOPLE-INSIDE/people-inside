@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="projects/img/pi_logo.png" width="200" height="200"/>
+</p>
+
 # Algorithm of PEOPLE INSIDE System
 
 ### What is a PEOPLE INSIDE System?
