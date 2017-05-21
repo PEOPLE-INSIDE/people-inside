@@ -36,8 +36,9 @@ If the **A** sensor detects a person first, it means *IN*. And the reverse, it m
 ![principle](./projects/img/principle.png)
 
 ## How To Use
-- **Classification Algorithmㅡ** we made classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
-- **Random Forestㅡ** we collect data sets we need, then 
+- **Classification Algorithmㅡ** Classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
+- **Random Forestㅡ** Machine Learning with data sets what we collected.
+You can choose one method that you want to use.
 
 ## Classifiaction Algorithm
 
