@@ -10,6 +10,7 @@
 [![MIT LICENSE](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)](#)
 # PEOPLE INSIDE
 
+##### Quick Start
 ```
 git clone https://github.com/PEOPLE-INSIDE/people-inside
 ```
