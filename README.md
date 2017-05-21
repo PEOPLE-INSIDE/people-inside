@@ -1,9 +1,8 @@
-<br><br>
 <p align="center">
-  <img src="projects/img/pi_logo.png"/><br>
+  <img src="projects/img/pi_logo.png"/><br><br>
 A real-time people counting system using ultrasonic sensors<br>
- <a href="https://github.com/PEOPLE-INSIDE/people-inside"><strong>Visit POEPLE INSIDE &raquo;</strong></a>
-<br><br>
+ <a href="https://github.com/PEOPLE-INSIDE/people-inside"><strong>Visit PEOPLE INSIDE &raquo;</strong></a>
+<br><br><br>
 </p>
 
 [![PLATFORM](https://camo.githubusercontent.com/fa324fd41901f19d1151ba104eb17ae57a1c4dd8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506c6174666f726d2d416e64726f69642d677265656e2e737667)](#)
