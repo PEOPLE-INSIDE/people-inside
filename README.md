@@ -1,7 +1,7 @@
-# Algorithm of IN-N-OUT System
+# Algorithm of PEOPLE INSIDE System
 
-### What is an IN-N-OUT System?
-- IN-N-OUT System is **a real-time people counting system using ultrasonic sensors**.
+### What is an PEOPLE INSIDE System?
+- PEOPLE INSIDE System is **a real-time people counting system using ultrasonic sensors**.
 
 ### Why did you made this?
 - At meal time, there are too many people in a restaurant. So we have to wait in the restaurant. We want to check the number of indoor people in advance.
