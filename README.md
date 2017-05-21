@@ -1,7 +1,7 @@
 <br><br>
 <p align="center">
   <img src="projects/img/pi_logo.png"/><br>
-<b>A real-time people counting system using ultrasonic sensors</b><br><br>
+A real-time people counting system using ultrasonic sensors<br><br>
 <br><br>
 </p>
 
@@ -75,19 +75,19 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 
 We have a core project team composed of:
 
-#### [Amber Cho](https://github.com/Seo-Hyung) - Founder/Lead  [![GITHUB](./projects/img/git.png)](https://github.com/Seo-Hyung) [![LINK](./projects/img/link.png)](https://seo-hyung.github.io)
+#### [Amber Cho](https://github.com/Seo-Hyung) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/Seo-Hyung) [![LINK](./projects/img/link.png)](https://seo-hyung.github.io)
 
 <img align="left" width="40" height="40" src="https://avatars0.githubusercontent.com/u/18183191?v=3&s=460">
 
 Amber is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
 
-#### [Chris Yang](https://github.com/ysm0622) - Founder/Lead  [![GITHUB](./projects/img/git.png)](https://github.com/ysm0622) [![LINK](./projects/img/link.png)](https://ysm0622.github.io/cv)
+#### [Chris Yang](https://github.com/ysm0622) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/ysm0622) [![LINK](./projects/img/link.png)](https://ysm0622.github.io/cv)
 
 <img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/18487241?v=3&s=460">
 
 Chris is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
 
-#### [Martin Kim](https://github.com/skins346) - Founder/Lead  [![GITHUB](./projects/img/git.png)](https://github.com/skins346) [![LINK](./projects/img/link.png)](#)
+#### [Martin Kim](https://github.com/skins346) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/skins346) [![LINK](./projects/img/link.png)](#)
 
 <img align="left" width="40" height="40" src="https://avatars2.githubusercontent.com/u/18107262?v=3&s=460">
 
