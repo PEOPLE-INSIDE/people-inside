@@ -1,7 +1,7 @@
 <br><br>
 <p align="center">
-  <img src="projects/img/pi_logo.png" width="128" height="128"/>
-**A real-time people counting system using ultrasonic sensors**
+  <img src="projects/img/pi_logo.png" width="130" height="130"/><br>
+<b>A real-time people counting system using ultrasonic sensors</b>
 <br><br>
 </p>
 
