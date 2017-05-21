@@ -1,7 +1,8 @@
+<br><br>
 <p align="center">
-  <img src="projects/img/pi_logo.png" width="200" height="200"/>
+  <img src="projects/img/pi_logo.png" width="128" height="128"/>
 </p>
-
+<br><br>
 # Algorithm of PEOPLE INSIDE System
 
 ### What is a PEOPLE INSIDE System?
