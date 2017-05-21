@@ -6,7 +6,7 @@
 
 # Getting Started
 
-# How To use
+# How To Use
 
 # Classifiaction Algorithm
 
