@@ -1,3 +1,4 @@
+<br>
 <p align="center">
   <img src="projects/img/pi_logo.png"/><br><br>
 A real-time people counting system using ultrasonic sensors<br>
