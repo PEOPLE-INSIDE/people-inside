@@ -9,6 +9,8 @@
 [![BUILD STATUS](https://img.shields.io/travis/USER/REPO/BRANCH.svg)](#)
 [![MIT LICENSE](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)](#)
 
+## Table of contents
+- [Quick start](#quick-start)
 
 ## PEOPLE INSIDE
 At meal time, there are too many people in a restaurant. So we have to wait in the restaurant. We want to check the number of indoor people in advance.
@@ -18,6 +20,7 @@ You can check the number of people with application.
 
 ### Our Purpose
 We are focusing on three main purposes.
+
 ![purpose](./projects/img/purpose.JPG)
 
 ### Quick Start <<
@@ -28,6 +31,12 @@ git clone https://github.com/PEOPLE-INSIDE/people-inside
 ## Getting Started
 ### Installation Environment
 
+Before you start, make sure the environment fits perfectly.
+- **ultrasonic sensorㅡ** need 4 ultrasonic sensors which parallel aligned in pairs. You must prepare inexpensive one which liek `HC-SR04` we used.
+- **Wifi Shieldㅡ** necessary to send data to the application.
+- **Serverㅡ**
+- **Applicationㅡ** required to view the processed data directly.
+
 ![architecture](./projects/img/architecture.png)
 
 ### Basic Principle
@@ -36,6 +45,10 @@ If the **A** sensor detects a person first, it means *IN*. And the reverse, it m
 ![principle](./projects/img/principle.png)
 
 ## How To Use
+- **Classification Algorithmㅡ** Classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
+- **Random Forestㅡ** Machine Learning with data sets what we collected.
+
+You can choose one method that you want to use.
 
 ## Classifiaction Algorithm
 
@@ -52,9 +65,8 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 
 ## Performance
 ### Test video
-```
+
 [Click here](https://www.youtube.com/watch?v=0aNgP3FmK0k) to watch test video.
-```
 
 ## Developers
 
