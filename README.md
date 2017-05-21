@@ -11,8 +11,30 @@
 
 
 ## PEOPLE INSIDE
+At meal time, there are too many people in a restaurant. So we have to wait in the restaurant. We want to check the number of indoor people in advance.
+PEOPLE INSIDE is **a real-time people counting system using ultrasonic sensors**.
+**Our system aims to measure indoor congestion metrics.**
+You can check the number of people with application.
+
+#### Our Purpose
+We are focusing on three main purposes.
+![purpose](./projects/img/purpose.JPG)
+
+#### Quick Start <<
+```
+git clone https://github.com/PEOPLE-INSIDE/people-inside
+```
 
 ## Getting Started
+#### Installation Environment
+
+![architecture](./projects/img/architecture.png)
+
+#### Basic Principle
+If the **A** sensor detects a person first, it means *IN*. And the reverse, it means *OUT*.
+>>>>>>> origin/master
+
+![principle](./projects/img/principle.png)
 
 ## How To Use
 
@@ -29,30 +51,10 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 그렇기 때문에 당신이 우리의 모델을 사용하고 싶지 않다면, 직접 Data를 모아 모델을 만들어 사용 할 수도 있다.
 -->
 
-
 ## Performance
+#### Test video
+```
+[Click here](https://www.youtube.com/watch?v=0aNgP3FmK0k) to watch test video.
+```
 
-
-
-
-
-
-
-### What is a PEOPLE INSIDE System?
-- PEOPLE INSIDE System is **a real-time people counting system using ultrasonic sensors**.
-
-### Why did you made this?
-- At meal time, there are too many people in a restaurant. So we have to wait in the restaurant. We want to check the number of indoor people in advance.
-
-### Why did you use ultrasonic sensors?
-- It is inexpensive so we can make system with low cost.
-- It is not affected by various environmental factors.
-
-### Basic Principle& System Architecture
-- If the A sensor detects a person first, it means *IN*. And the reverse, it means *OUT*.
-- You can check the number of people with application.
-
-![principle](./img/principle.png) ![architecture](./img/architecture.png)
-
-### Test video
-- [Click here](https://www.youtube.com/watch?v=0aNgP3FmK0k) to watch test video.
+# Developers
