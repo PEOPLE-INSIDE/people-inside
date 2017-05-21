@@ -5,7 +5,9 @@
 <br><br>
 </p>
 
-
+[![PLATFORM](https://camo.githubusercontent.com/fa324fd41901f19d1151ba104eb17ae57a1c4dd8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506c6174666f726d2d416e64726f69642d677265656e2e737667)](#)
+[![BUILD STATUS](https://img.shields.io/travis/USER/REPO.svg)](#)
+[![MIT LICENSE](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)](#)
 # PEOPLE INSIDE
 
 # Getting Started
