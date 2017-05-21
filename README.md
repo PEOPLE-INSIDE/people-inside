@@ -2,7 +2,18 @@
   <img src="projects/img/pi_logo.png" width="200" height="200"/>
 </p>
 
-# Algorithm of PEOPLE INSIDE System
+# PEOPLE INSIDE
+
+# Getting Started
+
+# How To use
+
+# Classifiaction Algorithm
+
+# Decision Tree
+
+# Performance
+
 
 ### What is a PEOPLE INSIDE System?
 - PEOPLE INSIDE System is **a real-time people counting system using ultrasonic sensors**.
