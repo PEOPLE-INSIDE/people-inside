@@ -1,7 +1,7 @@
 <br><br>
 <p align="center">
   <img src="projects/img/pi_logo.png"/><br>
-<b>A real-time people counting system using ultrasonic sensors</b>
+<b>A real-time people counting system using ultrasonic sensors</b><br>
 <br><br>
 </p>
 
