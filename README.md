@@ -9,6 +9,9 @@
 [![BUILD STATUS](https://img.shields.io/travis/USER/REPO/BRANCH.svg)](#)
 [![MIT LICENSE](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)](#)
 
+## Table of contents
+- [Quick start](#quick-start)
+
 ## PEOPLE INSIDE
 At meal time, there are too many people in a restaurant. So we have to wait in the restaurant. We want to check the number of indoor people in advance.
 PEOPLE INSIDE is **a real-time people counting system using ultrasonic sensors**.
@@ -27,6 +30,12 @@ git clone https://github.com/PEOPLE-INSIDE/people-inside
 
 ## Getting Started
 ### Installation Environment
+
+Before you start, make sure the environment fits perfectly.
+- **ultrasonic sensorㅡ** need 4 ultrasonic sensors which parallel aligned in pairs. You must prepare inexpensive one which liek `HC-SR04` we used.
+- **Wifi Shieldㅡ** necessary to send data to the application.
+- **Serverㅡ**
+- **Applicationㅡ** required to view the processed data directly.
 
 ![architecture](./projects/img/architecture.png)
 
