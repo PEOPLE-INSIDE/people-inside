@@ -9,7 +9,6 @@
 [![BUILD STATUS](https://img.shields.io/travis/USER/REPO/BRANCH.svg)](#)
 [![MIT LICENSE](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)](#)
 
-
 ## PEOPLE INSIDE
 At meal time, there are too many people in a restaurant. So we have to wait in the restaurant. We want to check the number of indoor people in advance.
 PEOPLE INSIDE is **a real-time people counting system using ultrasonic sensors**.
@@ -37,6 +36,8 @@ If the **A** sensor detects a person first, it means *IN*. And the reverse, it m
 ![principle](./projects/img/principle.png)
 
 ## How To Use
+- **Classification Algorithmㅡ** we made classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
+- **Random Forestㅡ** we collect data sets we need, then 
 
 ## Classifiaction Algorithm
 
