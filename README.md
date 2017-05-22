@@ -28,8 +28,6 @@ We are focusing on three main purposes.
 ![purpose](./projects/img/purpose.JPG)
 
 ### Quick Start
-Several quick start options are available:
-- Install
 
 ```
 git clone https://github.com/PEOPLE-INSIDE/people-inside
@@ -52,10 +50,10 @@ If the **A** sensor detects a person first, it means *IN*. And the reverse, it m
 ![principle](./projects/img/principle.png)
 
 ## How To Use
+You have to choose one method that you want to use.
+
 - **Classification Algorithmㅡ** Classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
 - **Random Forestㅡ** Machine Learning with data sets what we collected.
-
-You can choose one method that you want to use.
 
 ## Classifiaction Algorithm
 
@@ -83,7 +81,7 @@ We have a core project team composed of:
 
 <img align="left" width="40" height="40" src="https://avatars0.githubusercontent.com/u/18183191?v=3&s=460">
 
-Amber is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
+Amber is a Software Engineer and UI Designer. She always want to be a competent developer than now, so she is being a coder today as well. Even now:D Her effort are well balanced on the team, please go to her Git page if you want to know more about her.
 
 #### [Chris Yang](https://github.com/ysm0622) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/ysm0622) [![LINK](./projects/img/link.png)](https://ysm0622.github.io/cv)
 
