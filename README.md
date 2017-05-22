@@ -81,7 +81,7 @@ We have a core project team composed of:
 
 <img align="left" width="40" height="40" src="https://avatars0.githubusercontent.com/u/18183191?v=3&s=460">
 
-Amber is a Software Engineer and UI Designer. She always want to be a competent developer than now, so she is being a coder today as well. Even now:D Her effort are well balanced on the team, please go to her Git page if you want to know more about her.
+Amber is a Software Engineer and UI Designer. She always want to be a competent developer than now, so she is coding today as well. And that her effort are contributing to the team.
 
 #### [Chris Yang](https://github.com/ysm0622) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/ysm0622) [![LINK](./projects/img/link.png)](https://ysm0622.github.io/cv)
 
