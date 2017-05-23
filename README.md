@@ -56,6 +56,7 @@ You have to choose one method that you want to use.
 - **Random Forestㅡ** Machine Learning with data sets what we collected.
 
 ## Classifiaction Algorithm
+![graph](./projects/img/graph2.png)
 
 ## Random Forest
 <!--
