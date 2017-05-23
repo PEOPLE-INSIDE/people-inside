@@ -47,7 +47,7 @@ Before you start, make sure the environment fits perfectly.
 ### Basic Principle
 If the **A** sensor detects a person first, it means *IN*. And the reverse, it means *OUT*.
 
-![graph](./projects/img/graph.PNG) ![principle](./projects/img/principle.png)
+![principle](./projects/img/principle.png) ![graph](./projects/img/graph.PNG)
 
 ## How To Use
 You have to choose one method that you want to use.
