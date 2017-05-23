@@ -49,6 +49,8 @@ If the **A** sensor detects a person first, it means *IN*. And the reverse, it m
 
 ![principle](./projects/img/principle.png)
 
+![graph](./projects/img/graph.PNG)
+
 ## How To Use
 You have to choose one method that you want to use.
 
