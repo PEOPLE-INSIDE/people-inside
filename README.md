@@ -75,7 +75,6 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 [Click here](https://www.youtube.com/watch?v=0aNgP3FmK0k) to watch test video.
 
 ## Developers
-
 We have a core project team composed of:
 
 #### [Amber Cho](https://github.com/Seo-Hyung) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/Seo-Hyung) &nbsp; [![LINK](./projects/img/link.png)](https://seo-hyung.github.io)
