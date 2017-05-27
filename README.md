@@ -84,6 +84,9 @@ Did you choose?
 ![graph](./projects/img/graph2.png)
 
 ## Random Forest
+Second method is classificate using Random Forest (RF) which is one of machine learning algorithm. RF is ensemble method of decision trees. It gives pretty high performance. We provide 2800(1400 each class) dataset, and already implementated in example code our pre-train RF model by this dataset. Pre-train model was trained by Treebagger function of MATLAB software, and the number of trees are 50.
+
+The model that we provide is perfect adapted in our environment, so it might shows bad performance in your testbed. Therefore, if you don't want use our RF model, then you can collect your own dataset and train model.
 <!--
 두번째 Method는 Machine Learning 기법 중 하나인 Random Forest를 이용해 분류하는 것이다.
 Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정확도를 보인다.
@@ -97,23 +100,25 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 ## Performance
 
 ## Hardware
-* Arduino UNO X 1
-* HC-SR06 Ultrasonic Sensor X 4
-* PHPoC Arduino Shield X 1
+Click to link detail Specification.
+* [Arduino UNO](https://www.arduino.cc/en/main/arduinoBoardUno) X 1
+* [HC-SR04 Ultrasonic Sensor](http://www.micropik.com/PDF/HCSR04.pdf) X 4
+* [PHPoC Wi-Fi Shield](http://www.phpoc.com/phpoc_wifi_shield.php) X 1
 * Jumper Cable (as much as you need)
-* Arduino Chassis (3D printed)
-* Battery X 1
+* [Arduino Chassis](/projects/3d_modeling/) (3D printed)
+* [Battery](https://www.amazon.com/Duracell-MN-1604-Pack-MN1604/dp/B004DE54AA/ref=as_li_ss_tl?ie=UTF8&qid=1452883612&sr=8-5&keywords=9v+battery&linkCode=sl1&tag=amandaghassae-20&linkId=71d1e29ec233a9482043ab86519787cd) X 1
 * Android Mobile Phone
 
 ## Software
-* Arduino 1.8.2 (Arduino IDE Sketch)
-* Android Studio 2.3.2 (Android programming IDE)
-* MATLAB R2017a<br>
+Click to Download software.
+* [Arduino 1.8.2](https://www.arduino.cc/en/Main/Software) (Arduino IDE Sketch)
+* [Android Studio 2.3.2](https://developer.android.com/studio/index.html) (Android programming IDE)
+* [MATLAB R2017a](https://www.mathworks.com/products/new_products/latest_features.html) (License needed)<br>
   For signal processing
 * Web Server<br>
-  Hosting - [Hostinger](https://www.hostinger.kr/)
-  PHP
-  MySQL
+  Hosting - [Hostinger](https://www.hostinger.kr/)<br>
+  PHP<br>
+  MySQL<br>
 
 ## Open source
 * [Arduino](https://www.arduino.cc)<br>
