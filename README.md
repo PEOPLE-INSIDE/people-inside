@@ -65,7 +65,9 @@ On the right is the arduino case we made. We recommend you using a 3D printer wh
 ![environment](./projects/img/environment.png) ![case](./projects/img/case.jpg)
 
 ### Basic Principle
-If the **A** sensor detects a person first, it means *IN*. And the reverse, it means *OUT*.
+The basic principle what PEOPLE-INSIDE used, is to distinguish between *IN* and *OUT* of the person or people.<br>
+Suppose the sensors in the following figures, A and B. If the A sensor detects a person first, it means *IN*. And the reverse, of course it means *OUT*.<br>
+The right-hand side is actually a graph of the serial data that the sensor recognizes. *x* axis is time and *y* axis is measured distance. The blue one is the data of the A sensor and the yellow one is the data of the B sensor. You can figure the measured distance of the A sensor decreased first.
 
 ![principle](./projects/img/principle.png) ![graph](./projects/img/graph.PNG)
 
