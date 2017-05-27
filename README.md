@@ -33,12 +33,14 @@ We are focusing on three main purposes.
 git clone https://github.com/PEOPLE-INSIDE/people-inside
 ```
 
-```
-\projects\arduino - Include two type of our Arduino source code (Classification / Random Forest)
-```
-```
-\projects\mobile_app - Include our Android mobile application for display the number of people
-```
+`\projects\arduino` - Include two type of our Arduino source code (Classification / Random Forest)
+
+`\projects\mobile_app` - Include our Android mobile application for display the number of people
+
+`\projects\3d_modeling` - Include our 3d model chassis for Arduino and ultrasonic sensors.
+
+`\projects\dataset` - Include our all signal dataset for training decision trees.
+
 
 ## Getting Started
 ### Installation Environment
@@ -82,24 +84,36 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 * Arduino UNO X 1
 * HC-SR06 Ultrasonic Sensor X 4
 * PHPoC Arduino Shield X 1
-* Jumper cable X a (as much as you need)
+* Jumper Cable (as much as you need)
 * Arduino Chassis (3D printed)
+* Battery X 1
 * Android Mobile Phone
 
-
+## Software
+* Arduino 1.8.2 (Arduino IDE Sketch)
+* Android Studio 2.3.2 (Android programming IDE)
+* MATLAB R2017a<br>
+  For signal processing
+* Web Server<br>
+  Hosting - [Hostinger](https://www.hostinger.kr/)
+  PHP
+  MySQL
 
 ## Open source
-* [Arduino](https://www.arduino.cc)
+* [Arduino](https://www.arduino.cc)<br>
   Open-source electronic prototyping platform enabling users to create interactive electronic objects.
 
-* [PHPoC](www.phpoc.com/)
+* [PHPoC](www.phpoc.com/)<br>
   PHPoC Shield for Arduino connects Arduino to Ethernet or Wi-Fi networks.
 
-* [NewPing](http://playground.arduino.cc/Code/NewPing)
+* [NewPing](http://playground.arduino.cc/Code/NewPing)<br>
   NewPing is Arduino IDE library for easy control ultrasonic sensors.
 
-* [SPI](https://www.arduino.cc/en/reference/SPI)
+* [SPI](https://www.arduino.cc/en/reference/SPI)<br>
   Serial Peripheral Interface (SPI) is a synchronous serial data protocol used by microcontrollers for communicating with one or more peripheral devices quickly over short distances.
+
+* [Sketchup](https://www.sketchup.com/ko)<br>
+  SketchUp is 3D modeling software that's easy to learn and incredibly fun to use.
 
 ## Developers
 We have a core project team composed of:
