@@ -17,15 +17,17 @@ A real-time people counting system using ultrasonic sensors<br>
 - [Quick Start](#quick-start)
 
 ## PEOPLE INSIDE
-At the university meal time, too many people crowd into a restaurant. It's because there is a unified schedule. So sometimes we must go to another restaurant because there are no enough table. After all, it's a fool's errand. But, we don't have much time. o we have to wait in the restaurant. We want to check the number of indoor people in advance. 
-PEOPLE INSIDE is **a real-time people counting system using ultrasonic sensors**.
-**Our system aims to measure indoor congestion metrics.**
-You can check the number of people with application.
+University students takes classes according to the fixed timetable. At the meal time, too many people crowd into a cafeteria. Sometimes we must go to another cafeteria because there are no enough table. To take matters worse, we don't have much time, because another class begins soon. To have lunch, we have to wait for a seat in the cafeteria or go out to look for another cafeteria. After all, it's a fool's errand. From now we want to avoid this, We want to check the number of indoor people in advance. So, we made it, *PEOPLE-INSIDE*.
+*PEOPLE INSIDE* is **a real-time people counting system using ultrasonic sensors**. It uses only four inexpensive ultrasonic sensors to determine the number of indoor personnel. And you can see this number in real time through the application. **In other words, our system aims to measure indoor congestion metrics.** This can be apply to all indoor rooms as well as university cafeterias.
 
 ### Our Purpose
-We are focusing on three main purposes.
-
+We are focusing on main purposes.
+We have three things to aim for :
 ![purpose](./projects/img/purpose.JPG)
+
+You don't have to waste any more of your time by checking the number of indoor people with an application.
+PEOPLE-INSIDE can be used for various purposes. The use of it is yours.
+Only use four inexpensive ultrasonic sensors to determine the number of people.
 
 ### Quick Start
 
@@ -36,13 +38,20 @@ git clone https://github.com/PEOPLE-INSIDE/people-inside
 ## Getting Started
 ### Installation Environment
 
-Before you start, make sure the environment fits perfectly.
-- **ultrasonic sensorㅡ** need 4 ultrasonic sensors which parallel aligned in pairs. You must prepare inexpensive one which like `HC-SR04` we used.
-- **Wifi Shieldㅡ** necessary to send data to the application.
-- **Serverㅡ**
-- **Applicationㅡ** required to view the processed data directly.
+Before you use our system, make sure the environment fits perfectly. This is a list of necessary things.
+- **Arduino UNOㅡ** `UNO` becomes the main body to connect the sensors.
+- **ultrasonic sensorsㅡ** You need four ultrasonic sensors. And these must positioned parallel aligned in two pairs. Prepare inexpensive one which like `HC-SR06` we used.
+- **batteriesㅡ** If you want to connect wirelessly, you need a battery to supply power.
+- **Wifi Shield& Serverㅡ** It is necessary to send data to the application. The server can use what you want.
+- **Applicationㅡ** To view the processed data directly.
+
+We prepared a picture of the architecture. It will help you understand the system.
 
 ![architecture](./projects/img/architecture.png)
+
+And this picture depicts out actual test environment. On the right is the arduino case we made. We recommend you using a 3D printer when making your own.
+
+![environment](./projects/img/environment.png) ![case](./projects/img/case.jpg)
 
 ### Basic Principle
 If the **A** sensor detects a person first, it means *IN*. And the reverse, it means *OUT*.
@@ -70,9 +79,6 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 -->
 
 ## Performance
-### Test video
-
-[Click here](https://www.youtube.com/watch?v=0aNgP3FmK0k) to watch test video.
 
 ## Developers
 We have a core project team composed of:
