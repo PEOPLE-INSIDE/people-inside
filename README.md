@@ -17,7 +17,7 @@ A real-time people counting system using ultrasonic sensors<br>
 - [Quick Start](#quick-start)
 
 ## PEOPLE INSIDE
-At meal time, there are too many people in a restaurant. So we have to wait in the restaurant. We want to check the number of indoor people in advance.
+At the university meal time, too many people crowd into a restaurant. It's because there is a unified schedule. So sometimes we must go to another restaurant because there are no enough table. After all, it's a fool's errand. But, we don't have much time. o we have to wait in the restaurant. We want to check the number of indoor people in advance. 
 PEOPLE INSIDE is **a real-time people counting system using ultrasonic sensors**.
 **Our system aims to measure indoor congestion metrics.**
 You can check the number of people with application.
