@@ -59,7 +59,7 @@ We prepared a picture of the architecture. It will help you understand the syste
 
 ![architecture](./projects/img/architecture.png)
 
-And this picture depicts out actual test environment.<br>
+And this picture depicts our actual test environment.<br>
 On the right is the arduino case we made. We recommend you using a 3D printer when making your own.
 
 ![environment](./projects/img/environment.png) ![case](./projects/img/case.jpg)
