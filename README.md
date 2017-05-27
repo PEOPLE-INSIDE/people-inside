@@ -73,10 +73,12 @@ So, if you interpret the graph, you can see that the person initially did *IN*. 
 ![principle](./projects/img/principle.png) ![graph](./projects/img/graph.PNG)
 
 ## How To Use
-You have to choose one method that you want to use.
+Before you use PEOPLE-INSIDE software, you have two options. Both methods are suggested, so you just pick what you want.
 
 - **Classification Algorithmㅡ** Classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
 - **Random Forestㅡ** Machine Learning with data sets what we collected.
+
+Did you choose?
 
 ## Classifiaction Algorithm
 ![graph](./projects/img/graph2.png)
