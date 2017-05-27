@@ -17,7 +17,7 @@ A real-time people counting system using ultrasonic sensors<br>
 - [Quick Start](#quick-start)
 
 ## PEOPLE INSIDE
-University students takes classes according to the fixed timetable. At the meal time, too many people crowd into a cafeteria. Sometimes we must go to another cafeteria because there are no enough table. To take matters worse, we don't have much time, because another class begins soon. To have lunch, we have to wait for a seat in the cafeteria or go out to look for another cafeteria. After all, it's a fool's errand. From now we want to avoid this, We want to check the number of indoor people in advance. So, we made it, *PEOPLE-INSIDE*.
+University students takes classes according to the fixed timetable. At the meal time, too many people crowd into a cafeteria. Sometimes we must go to another cafeteria because there are no enough table. To take matters worse, we don't have much time, because another class begins soon. To have lunch, we have to wait for a seat in the cafeteria or go out to look for another cafeteria. After all, it's a fool's errand. From now we want to avoid this, We want to check the number of indoor people in advance. So, we made it, *PEOPLE-INSIDE*.<br>
 *PEOPLE INSIDE* is **a real-time people counting system using ultrasonic sensors**. It uses only four inexpensive ultrasonic sensors to determine the number of indoor personnel. And you can see this number in real time through the application. **In other words, our system aims to measure indoor congestion metrics.** This can be apply to all indoor rooms as well as university cafeterias.
 
 ### Our Purpose
@@ -25,8 +25,8 @@ We are focusing on main purposes.
 We have three things to aim for :
 ![purpose](./projects/img/purpose.JPG)
 
-You don't have to waste any more of your time by checking the number of indoor people with an application.
-PEOPLE-INSIDE can be used for various purposes. The use of it is yours.
+You don't have to waste any more of your time by checking the number of indoor people with an application.<br>
+PEOPLE-INSIDE can be used for various purposes. The use of it is yours.<br>
 Only use four inexpensive ultrasonic sensors to determine the number of people.
 
 ### Quick Start
@@ -58,7 +58,8 @@ We prepared a picture of the architecture. It will help you understand the syste
 
 ![architecture](./projects/img/architecture.png)
 
-And this picture depicts out actual test environment. On the right is the arduino case we made. We recommend you using a 3D printer when making your own.
+And this picture depicts out actual test environment.<br>
+On the right is the arduino case we made. We recommend you using a 3D printer when making your own.
 
 ![environment](./projects/img/environment.png) ![case](./projects/img/case.jpg)
 
