@@ -77,29 +77,9 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 -->
 
 ## Performance
+### Test video
 
-## Hardware
-* Arduino UNO X 1
-* HC-SR06 Ultrasonic Sensor X 4
-* PHPoC Arduino Shield X 1
-* Jumper cable X a (as much as you need)
-* Arduino Chassis (3D printed)
-* Android Mobile Phone
-
-
-
-## Open source
-* [Arduino](https://www.arduino.cc)
-  Open-source electronic prototyping platform enabling users to create interactive electronic objects.
-
-* [PHPoC](www.phpoc.com/)
-  PHPoC Shield for Arduino connects Arduino to Ethernet or Wi-Fi networks.
-
-* [NewPing](http://playground.arduino.cc/Code/NewPing)
-  NewPing is Arduino IDE library for easy control ultrasonic sensors.
-
-* [SPI](https://www.arduino.cc/en/reference/SPI)
-  Serial Peripheral Interface (SPI) is a synchronous serial data protocol used by microcontrollers for communicating with one or more peripheral devices quickly over short distances.
+[Click here](https://www.youtube.com/watch?v=0aNgP3FmK0k) to watch test video.
 
 ## Developers
 We have a core project team composed of:
