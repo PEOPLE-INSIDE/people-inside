@@ -38,7 +38,7 @@ git clone https://github.com/PEOPLE-INSIDE/people-inside
 
 `\projects\arduino` - Include two type of our Arduino source code (Classification / Random Forest)
 
-`\projects\mobile_app` - Include our Android mobile application for display the number of people
+`\projects\mobile_app` - Include our Android mobile application for display the number of people.
 
 `\projects\3d_modeling` - Include our 3d model chassis for Arduino and ultrasonic sensors.
 
@@ -84,7 +84,7 @@ Did you choose?
 ![graph](./projects/img/graph2.png)
 
 ## Random Forest
-Second method is classificate using Random Forest (RF) which is one of machine learning algorithm. RF is ensemble method of decision trees. It gives pretty high performance. We provide 2800(1400 each class) dataset, and already implementated in example code our pre-train RF model by this dataset. Pre-train model was trained by Treebagger function of MATLAB software, and the number of trees are 50.
+Second method is classificate using Random Forest (RF) which is one of machine learning algorithm. RF is ensemble method of decision trees. It gives pretty high performance. We provide 2800(1400 each class) dataset, and already implementated in [example code](/projects/arduino/peopleinside.ino) our pre-train RF model by this dataset. Pre-train model was trained by Treebagger function of MATLAB software, and the number of trees are 50.
 
 The model that we provide is perfect adapted in our environment, so it might shows bad performance in your testbed. Therefore, if you don't want use our RF model, then you can collect your own dataset and train model.
 <!--
