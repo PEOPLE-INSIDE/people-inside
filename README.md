@@ -136,24 +136,28 @@ Click to Download software.
 * [Sketchup](https://www.sketchup.com/ko)<br>
   SketchUp is 3D modeling software that's easy to learn and incredibly fun to use.
 
+## Paper
+* **A Real-Time People Counting Algorithm using Ultrasonic Sensors** (2016), [[pdf]](./projects/paper/paper_2016.pdf)
+* **Design and Performance Comparison of Machine Learning Model for Time Series Data Classification** (2017), [[pdf]](./projects/paper/paper_2017.pdf)
+
 ## Developers
 We have a core project team composed of:
 
-#### [Amber Cho](https://github.com/Seo-Hyung) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/Seo-Hyung) &nbsp; [![LINK](./projects/img/link.png)](https://seo-hyung.github.io)
+#### [Amber Cho](https://github.com/Seo-Hyung) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/Seo-Hyung) &nbsp; [![LINK](./projects/img/link.png)](https://seo-hyung.github.io) &nbsp;[westbro00@naver.com](westbro00@naver.com)
 
-<img align="left" width="40" height="40" src="https://avatars0.githubusercontent.com/u/18183191?v=3&s=460">
+<img align="left" width="50" height="50" src="https://avatars0.githubusercontent.com/u/18183191?v=3&s=460">
 
-Amber is a Software Engineer and UI Designer. She always want to be a competent developer than now, so she is coding today as well. And that her effort are contributing to the team.
+Amber is a Software Engineer and UI Designer. She always wants to be a competent developer than now, so she is coding today as well. And that her effort are contributing to the team.
 
-#### [Chris Yang](https://github.com/ysm0622) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/ysm0622) &nbsp; [![LINK](./projects/img/link.png)](https://ysm0622.github.io/cv)
+#### [Chris Yang](https://github.com/ysm0622) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/ysm0622) &nbsp; [![LINK](./projects/img/link.png)](https://ysm0622.github.io/cv) &nbsp;[ysm0622@gmail.com](ysm0622@gmail.com)
 
-<img align="left" width="40" height="40" src="https://avatars1.githubusercontent.com/u/18487241?v=3&s=460">
+<img align="left" width="50" height="50" src="https://avatars1.githubusercontent.com/u/18487241?v=3&s=460">
 
 Chris is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
 
-#### [Martin Kim](https://github.com/skins346) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/skins346) &nbsp; [![LINK](./projects/img/link.png)](#)
+#### [Martin Kim](https://github.com/skins346) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/skins346) &nbsp; [![LINK](./projects/img/link.png)](#) &nbsp;[skins346@naver.com](skins346@naver.com)
 
-<img align="left" width="40" height="40" src="https://avatars2.githubusercontent.com/u/18107262?v=3&s=460">
+<img align="left" width="50" height="50" src="https://avatars2.githubusercontent.com/u/18107262?v=3&s=460">
 
 Martin is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
 
