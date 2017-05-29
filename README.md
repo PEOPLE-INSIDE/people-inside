@@ -13,8 +13,20 @@ A real-time people counting system using ultrasonic sensors<br>
 ## Table of contents
 - [About](#people-inside)
 - [Purpose](#our-purpose)
-- [Basic Principle](#basic-principle)
 - [Quick Start](#quick-start)
+- [Installation Environment](#installation-environment)
+- [3D Printed Chassis](#3d-printed-chassis)
+- [Basic Principle](#basic-principle)
+- [How To Use](#how-to-use)
+- [Classifiaction Algorithm](#classifiaction-algorithm)
+- [Random Forest](#random-forest)
+- [Performance](#performance)
+- [Hardware](#hardware)
+- [Software](#software)
+- [Open Source](#open-source)
+- [Developers](#developers)
+- [Paper](#paper)
+- [License](#license)
 
 ## PEOPLE INSIDE
 University students takes classes according to the fixed timetable. At the meal time, too many people crowd into a cafeteria. Sometimes we must go to another cafeteria because there are no enough table. To take matters worse, we don't have much time, because another class begins soon. To have lunch, we have to wait for a seat in the cafeteria or go out to look for another cafeteria. After all, it's a fool's errand. From now we want to avoid this, We want to check the number of indoor people in advance. So, we made it, *PEOPLE-INSIDE*.<br>
@@ -64,11 +76,15 @@ On the right is the arduino case we made. We recommend you using a 3D printer wh
 
 ![environment](./projects/img/environment.png) ![case](./projects/img/case.jpg)
 
-### 3D Printed Chassis
-<!--우리는 또한 아두이노 chassis 제작을 위한 3D printing model도 제공한다.
+### 3D Chassis Model
+<!--우리는 또한 아두이노 chassis 제작을 위한 3D model도 제공한다.
+당신이 3D printer를 사용할 수 있다면 이 모델을 이용하면 된다.
 아래 사진은 우리가 제공하는 3D model의 일부 snapshot이다.-->
+We also provide 3D model file for making arduino chassis.
+You can use this model if you have 3D printer.
+Below images are some snapshots 3D models that we provide.
 ![L1-1](./projects/img/model1_1.png)
-![L1-2](./projects/img/model1_2.png)
+![L1-2](./projects/img/model1_2.png)<br>
 ![L2-1](./projects/img/model2_1.png)
 ![L2-2](./projects/img/model2_2.png)
 
@@ -92,6 +108,7 @@ Did you choose?
 ![graph](./projects/img/graph2.png)
 
 ## Random Forest
+![rf](./projects/img/rf.jpg)
 Second method is classificate using Random Forest (RF) which is one of machine learning algorithm. RF is ensemble method of decision trees. It gives pretty high performance. We provide 2800(1400 each class) dataset, and already implementated in [example code](/projects/arduino/peopleinside.ino) our pre-train RF model by this dataset. Pre-train model was trained by Treebagger function of MATLAB software, and the number of trees are 50.
 
 The model that we provide is perfect adapted in our environment, so it might shows bad performance in your testbed. Therefore, if you don't want use our RF model, then you can collect your own dataset and train model.
@@ -128,7 +145,7 @@ Click to Download software.
   PHP<br>
   MySQL<br>
 
-## Open source
+## Open Source
 * [Arduino](https://www.arduino.cc)<br>
   Open-source electronic prototyping platform enabling users to create interactive electronic objects.
 
@@ -144,10 +161,6 @@ Click to Download software.
 * [Sketchup](https://www.sketchup.com/ko)<br>
   SketchUp is 3D modeling software that's easy to learn and incredibly fun to use.
 
-## Paper
-* **A Real-Time People Counting Algorithm using Ultrasonic Sensors** (2016), [[pdf]](./projects/paper/paper_2016.pdf)
-* **Design and Performance Comparison of Machine Learning Model for Time Series Data Classification** (2017), [[pdf]](./projects/paper/paper_2017.pdf)
-
 ## Developers
 We have a core project team composed of:
 
@@ -161,13 +174,17 @@ Amber is a Software Engineer and UI Designer. She always wants to be a competent
 
 <img align="left" width="50" height="50" src="https://avatars1.githubusercontent.com/u/18487241?v=3&s=460">
 
-Chris is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
+Chris is a Software Engineer and Data Scientist. He loves everything related to computers and data science. His goal of his life is to make small changes in human lives with use of the knowledge he knows.
 
 #### [Martin Kim](https://github.com/skins346) - Founder/Lead &nbsp;  [![GITHUB](./projects/img/git.png)](https://github.com/skins346) &nbsp; [![LINK](./projects/img/link.png)](#) &nbsp;[skins346@naver.com](skins346@naver.com)
 
 <img align="left" width="50" height="50" src="https://avatars2.githubusercontent.com/u/18107262?v=3&s=460">
 
 Martin is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
+
+## Paper
+* **A Real-Time People Counting Algorithm using Ultrasonic Sensors** (2016), [[pdf]](./projects/paper/paper_2016.pdf)
+* **Design and Performance Comparison of Machine Learning Model for Time Series Data Classification** (2017), [[pdf]](./projects/paper/paper_2017.pdf)
 
 ## License
 * This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.<br>
