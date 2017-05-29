@@ -104,8 +104,46 @@ Before you use PEOPLE-INSIDE software, you have two options. Both methods are su
 
 Did you choose?
 
-## Classifiaction Algorithm
+## Classification Algorithm
+Only one software tool is needed.
+- **Sketchㅡ** To use Classification Algorithm, `the sketch` tool must be installed.
+
+Once the tool installation has been completed, begin explaining the algorithm.
+Leave nothing between doors after initial installation. Because the algorithm begins with measuring distance N times between the door.<br>
+*why?*<br>
+Knowing the distance between the doors sets the standard. Then, calculate the average of the measured distances. And obtain a standard deviation as six sigma from the average. In other words, if the measured distance between the upperbound and the lowerbound, nothing passes. The reason for judging like this is because the measured distances by ultrasonic sensors are very sensitive and accurate.
+From the graph, you can see that the measured distances are not represented like linear line.
+
 ![graph](./projects/img/graph2.png)
+
+```
+Upperbound & Lowerbound = Average of distance1,2,3,4 ± 6σ
+```
+
+So, if the graph deviate from the bound, you realize something goes past the door.
+
+Let me explain why we used *four ultrasonic sensors*, not two.
+Initially, two sensors were used in the system. However, when the only two sensors were analyzed and compiled, unexpected events occurred. A typical example is that the measured distances by the two sensors go off at the same time. Without a single error. In this case, the count is an error. And if the count continues to accumulate, this small error becomes unacceptably large. So we increased the number of sensor to four to correct these errors. With four sensors, even one sensor's data is missing, system listens to the others. Increased the number of sensors to increase the accuracy of the system.
+
+After all, if we formulate the Classification algorithm in the way we describe, it looks like the following picture.
+
+![width](./projects/img/graph3.JPG)
+
+```
+𝐑=|𝒕_𝑨𝟏−𝒕_𝑩𝟏|/(𝒕_𝑨𝟏−𝒕_𝑩𝟏)+|𝒕_𝑪𝟏−𝒕_𝑫𝟏|/(𝒕_𝑪𝟏−𝒕_𝑫𝟏)+|𝒕_𝑨𝟏−𝒕_𝑫𝟏|/(𝒕_𝑨𝟏−𝒕_𝑫𝟏)+|𝒕_𝑪𝟏−𝒕_𝑩𝟏|/(𝒕_𝑪𝟏−𝒕_𝑩𝟏 )
++|𝒕_𝑨𝟐−𝒕_𝑩𝟐|/(𝒕_𝑨𝟐−𝒕_𝑩𝟐)+|𝒕_𝑪𝟐−𝒕_𝑫𝟐|/(𝒕_𝑪𝟐−𝒕_𝑫𝟐)+|𝒕_𝑨𝟐−𝒕_𝑫𝟐|/(𝒕_𝑨𝟐−𝒕_𝑫𝟐)+(|𝒕_𝑪𝟐−𝒕_𝑩𝟐|)/(𝒕_𝑪𝟐−𝒕_𝑩𝟐 )
+
+If R>0, IN and if R<0, OUT
+```
+
+And there is one more reason for using four ultrasonic sensors. That is to measure multiple people. Usually one person passes by between the doors, but two dry men can pass by, and several people can pass by. We used width to solve this problem.
+
+![width](./projects/img/width.JPG)
+
+```
+𝒅_𝒘= 𝒅_𝑻−(𝒎𝒊𝒏⁡(𝒅_𝑨 )+𝒎𝒊𝒏⁡(𝒅_𝑪 ))
+𝒅_𝒘 is width of passing people
+```
 
 ## Random Forest
 ![rf](./projects/img/rf.jpg)
