@@ -49,11 +49,11 @@ git clone https://github.com/PEOPLE-INSIDE/people-inside
 ### Installation Environment
 
 Before you use our system, make sure the environment fits perfectly. This is a list of necessary things.
-- **Arduino UNOㅡ** `UNO` becomes the main body to connect the sensors.
-- **ultrasonic sensorsㅡ** You need four ultrasonic sensors. And these must positioned parallel aligned in two pairs. Prepare inexpensive one which like `HC-SR06` we used.
-- **batteriesㅡ** If you want to connect wirelessly, you need a battery to supply power.
-- **Wifi Shield& Serverㅡ** It is necessary to send data to the application. The server can use what you want.
-- **Applicationㅡ** To view the processed data directly.
+- **Arduino UNO** `UNO` becomes the main body to connect the sensors.
+- **Ultrasonic sensors** You need four ultrasonic sensors. And these must positioned parallel aligned in two pairs. Prepare inexpensive one which like `HC-SR06` we used.
+- **Batteries** If you want to connect wirelessly, you need a battery to supply power.
+- **Wifi Shield & Server** It is necessary to send data to the application. The server can use what you want.
+- **Application** To view the processed data directly.
 
 We prepared a picture of the architecture. It will help you understand the system.
 
@@ -63,6 +63,14 @@ And this picture depicts our actual test environment.<br>
 On the right is the arduino case we made. We recommend you using a 3D printer when making your own.
 
 ![environment](./projects/img/environment.png) ![case](./projects/img/case.jpg)
+
+### 3D Printed Chassis
+<!--우리는 또한 아두이노 chassis 제작을 위한 3D printing model도 제공한다.
+아래 사진은 우리가 제공하는 3D model의 일부 snapshot이다.-->
+![L1-1](./projects/img/model1_1.png)
+![L1-2](./projects/img/model1_2.png)
+![L2-1](./projects/img/model2_1.png)
+![L2-2](./projects/img/model2_2.png)
 
 ### Basic Principle
 The basic principle what PEOPLE-INSIDE used, is to distinguish between *IN* and *OUT* of the person or people.<br>
@@ -75,8 +83,8 @@ So, if you interpret the graph, you can see that the person initially did *IN*. 
 ## How To Use
 Before you use PEOPLE-INSIDE software, you have two options. Both methods are suggested, so you just pick what you want.
 
-- **Classification Algorithmㅡ** Classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
-- **Random Forestㅡ** Machine Learning with data sets what we collected.
+- **Classification Algorithm** Classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
+- **Random Forest** Machine Learning with data sets what we collected.
 
 Did you choose?
 
