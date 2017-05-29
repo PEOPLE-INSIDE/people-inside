@@ -133,6 +133,10 @@ After all, if we formulate the Classification algorithm in the way we describe, 
 ![width](./projects/img/graph3.JPG)
 
 ```
+𝒕_𝑨𝟏,𝒕_𝑩𝟏,𝒕_𝑪𝟏,𝒕_𝑫𝟏 = Time when distance of sensor decreases below lowerbound
+𝒕_𝑨𝟐,𝒕_𝑩𝟐,𝒕_𝑪𝟐,𝒕_𝑫𝟐  = Time when distance of sensor increases above lowerbound
+
+
 𝐑=|𝒕_𝑨𝟏−𝒕_𝑩𝟏|/(𝒕_𝑨𝟏−𝒕_𝑩𝟏)+|𝒕_𝑪𝟏−𝒕_𝑫𝟏|/(𝒕_𝑪𝟏−𝒕_𝑫𝟏)+|𝒕_𝑨𝟏−𝒕_𝑫𝟏|/(𝒕_𝑨𝟏−𝒕_𝑫𝟏)+|𝒕_𝑪𝟏−𝒕_𝑩𝟏|/(𝒕_𝑪𝟏−𝒕_𝑩𝟏 )
 +|𝒕_𝑨𝟐−𝒕_𝑩𝟐|/(𝒕_𝑨𝟐−𝒕_𝑩𝟐)+|𝒕_𝑪𝟐−𝒕_𝑫𝟐|/(𝒕_𝑪𝟐−𝒕_𝑫𝟐)+|𝒕_𝑨𝟐−𝒕_𝑫𝟐|/(𝒕_𝑨𝟐−𝒕_𝑫𝟐)+(|𝒕_𝑪𝟐−𝒕_𝑩𝟐|)/(𝒕_𝑪𝟐−𝒕_𝑩𝟐 )
 
@@ -167,7 +171,7 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 -->
 
 ## Performance
-The environment for our performance testing is as follows.
+The environment for our performance testing is as follows.<br>
 `room 306-B, IT building, Gachon University, Republic of Korea`
 
 We set 200 times as a test case and tested it several times. And the test results of one person passing door, the average error rate is 0.01. In other words, there are 1 to 3 errors in one test case (200 times).
