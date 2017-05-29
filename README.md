@@ -122,6 +122,7 @@ From the graph, you can see that the measured distances are not represented like
 Upperbound & Lowerbound = Average of distance1,2,3,4 ± 6σ
 ```
 
+
 So, if the graph deviate from the bound, you realize something goes past the door.
 
 Let me explain why we used *four ultrasonic sensors*, not two.
@@ -138,6 +139,7 @@ After all, if we formulate the Classification algorithm in the way we describe, 
 If R>0, IN and if R<0, OUT
 ```
 
+
 And there is one more reason for using four ultrasonic sensors. That is to measure multiple people. Usually one person passes by between the doors, but two dry men can pass by, and several people can pass by. We used width to solve this problem.
 
 ![width](./projects/img/width.JPG)
@@ -146,6 +148,7 @@ And there is one more reason for using four ultrasonic sensors. That is to measu
 𝒅_𝒘= 𝒅_𝑻−(𝒎𝒊𝒏⁡(𝒅_𝑨 )+𝒎𝒊𝒏⁡(𝒅_𝑪 ))
 𝒅_𝒘 is width of passing people
 ```
+
 
 ## Random Forest
 ![rf](./projects/img/rf.jpg)
