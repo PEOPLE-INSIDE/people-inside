@@ -167,6 +167,14 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 -->
 
 ## Performance
+The environment for our performance testing is as follows.
+`room 306-B, IT building, Gachon University, Republic of Korea`
+
+We set 200 times as a test case and tested it several times. And the test results of one person passing door, the average error rate is 0.01. In other words, there are 1 to 3 errors in one test case (200 times).
+And test results of several people passing door, the average error rate is 0.06.
+You can also expect similar accuracy if you set the environment properly and apply the software.
+
+If the error rate is too high, it is recommended that the position of the ultrasonic sensors be well set again. This is because ultrasonic sensors are very sensitive.
 
 ## Hardware
 Click to link detail Specification.
