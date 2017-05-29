@@ -171,7 +171,7 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 -->
 
 ## Performance
-The environment for our performance testing is as follows:<br>
+The environment for our performance testing is as follows :<br>
 `room 306-B, IT building, Gachon University, Republic of Korea`
 
 We set 200 times as a test case and tested it several times. And the test results of one person passing door, the average error rate is 0.01. In other words, there are 1 to 3 errors in one test case (200 times).
