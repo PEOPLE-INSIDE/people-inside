@@ -83,6 +83,7 @@ On the right is the arduino case we made. We recommend you using a 3D printer wh
 We also provide 3D model file for making arduino chassis.
 You can use this model if you have 3D printer.
 Below images are some snapshots 3D models that we provide.
+
 ![L1-1](./projects/img/model1_1.png)
 ![L1-2](./projects/img/model1_2.png)<br>
 ![L2-1](./projects/img/model2_1.png)
@@ -147,6 +148,7 @@ And there is one more reason for using four ultrasonic sensors. That is to measu
 
 ## Random Forest
 ![rf](./projects/img/rf.jpg)
+
 Second method is classificate using Random Forest (RF) which is one of machine learning algorithm. RF is ensemble method of decision trees. It gives pretty high performance. We provide 2800(1400 each class) dataset, and already implementated in [example code](/projects/arduino/peopleinside.ino) our pre-train RF model by this dataset. Pre-train model was trained by Treebagger function of MATLAB software, and the number of trees are 50.
 
 The model that we provide is perfect adapted in our environment, so it might shows bad performance in your testbed. Therefore, if you don't want use our RF model, then you can collect your own dataset and train model.
