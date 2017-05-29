@@ -100,8 +100,8 @@ So, if you interpret the graph, you can see that the person initially did *IN*. 
 ## How To Use
 Before you use PEOPLE-INSIDE software, you have two options. Both methods are suggested, so you just pick what you want.
 
-- **Classification Algorithm** Classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
-- **Random Forest** Machine Learning with data sets what we collected.
+- **Classification Algorithmㅡ** Classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
+- **Random Forestㅡ** Machine Learning with data sets what we collected.
 
 Did you choose?
 
