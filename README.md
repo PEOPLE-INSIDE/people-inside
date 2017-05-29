@@ -110,8 +110,9 @@ Only one software tool is needed.
 - **Sketchㅡ** To use Classification Algorithm, `the sketch` tool must be installed.
 
 Once the tool installation has been completed, begin explaining the algorithm.
-Leave nothing between doors after initial installation. Because the algorithm begins with measuring distance N times between the door.<br>
-*why?*<br>
+Leave nothing between doors after initial installation. Because the algorithm begins with measuring distance N times between the door.
+
+*why?*
 Knowing the distance between the doors sets the standard. Then, calculate the average of the measured distances. And obtain a standard deviation as six sigma from the average. In other words, if the measured distance between the upperbound and the lowerbound, nothing passes. The reason for judging like this is because the measured distances by ultrasonic sensors are very sensitive and accurate.
 From the graph, you can see that the measured distances are not represented like linear line.
 
