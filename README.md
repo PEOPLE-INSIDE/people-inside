@@ -11,11 +11,12 @@ A real-time people counting system using ultrasonic sensors<br>
 [![MIT LICENSE](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)](#)
 
 ## Table of contents
-**1.** [PEOPLE INSIDE](#people-inside)
+<b>1.</b> [PEOPLE INSIDE](#people-inside)
    - [About](#people-inside)
    - [Purpose](#our-purpose)
-   - [Quick Start](#quick-start)<br>
-**2.** [Getting Started](#getting-started)
+   - [Quick Start](#quick-start)  
+     
+<b>2.</b> [Getting Started](#getting-started)
    - [Installation Environment](#installation-environment)
    - [3D Printed Chassis](#3d-printed-chassis)
    - [Basic Principle](#basic-principle)<br>
