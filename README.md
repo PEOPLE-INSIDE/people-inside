@@ -11,22 +11,25 @@ A real-time people counting system using ultrasonic sensors<br>
 [![MIT LICENSE](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)](#)
 
 ## Table of contents
-- [About](#people-inside)
-- [Purpose](#our-purpose)
-- [Quick Start](#quick-start)
-- [Installation Environment](#installation-environment)
-- [3D Printed Chassis](#3d-printed-chassis)
-- [Basic Principle](#basic-principle)
-- [How To Use](#how-to-use)
-- [Classifiaction Algorithm](#classifiaction-algorithm)
-- [Random Forest](#random-forest)
-- [Performance](#performance)
-- [Hardware](#hardware)
-- [Software](#software)
-- [Open Source](#open-source)
-- [Developers](#developers)
-- [Paper](#paper)
-- [License](#license)
+1. [PEOPLE INSIDE](#people-inside)
+  * [About](#people-inside)
+  * [Purpose](#our-purpose)
+  * [Quick Start](#quick-start)
+2. [Getting Started](#getting-started)
+  * [Installation Environment](#installation-environment)
+  * [3D Printed Chassis](#3d-printed-chassis)
+  * [Basic Principle](#basic-principle)
+3. [How To Use](#how-to-use)
+  * [Classifiaction Algorithm](#classifiaction-algorithm)
+  * [Random Forest](#random-forest)
+4. [Performance](#performance)
+5. [Components](#hardware)
+  * [Hardware](#hardware)
+  * [Software](#software)
+  * [Open Source](#open-source)
+6. [Developers](#developers)
+7. [Paper](#paper)
+8. [License](#license)
 
 ## PEOPLE INSIDE
 University students takes classes according to the fixed timetable. At the meal time, too many people crowd into a cafeteria. Sometimes we must go to another cafeteria because there are no enough table. To take matters worse, we don't have much time, because another class begins soon. To have lunch, we have to wait for a seat in the cafeteria or go out to look for another cafeteria. After all, it's a fool's errand. From now we want to avoid this, We want to check the number of indoor people in advance. So, we made it, *PEOPLE-INSIDE*.<br>
@@ -161,7 +164,7 @@ And there is one more reason for using four ultrasonic sensors. That is to measu
 ![rf](./projects/img/rf.jpg)<br>
 The second method is classificate using Random Forest (RF) which is one of machine learning algorithm. RF is ensemble method of decision trees. It gives pretty high performance. We provide 2800(1400 each class) dataset, and already implementated in [example code](/projects/arduino/peopleinside.ino) our pre-train RF model by this dataset. Pre-train model was trained by Treebagger function of MATLAB software, and the number of trees are 50.
 
-The model that we provide is perfect adapted in our environment, so it might shows bad performance in your testbed. Therefore, if you don't want use our RF model, then you can collect your own dataset and train model.
+The model that we provide is perfect adapted in our environment, so it might shows bad performance in your testbed. Therefore, if you don't want to use our RF model, then you can collect your own dataset and train model.
 <!--
 두번째 Method는 Machine Learning 기법 중 하나인 Random Forest를 이용해 분류하는 것이다.
 Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정확도를 보인다.
