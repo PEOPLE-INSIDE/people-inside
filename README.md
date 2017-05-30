@@ -74,6 +74,9 @@ We prepared a picture of the architecture. It will help you understand the syste
 And this picture depicts our actual test environment.<br>
 On the right is the arduino case we made. We recommend you using a 3D printer when making your own.
 
+There is one thing you need to know when you make a case. The ultrasonic sensor sends sound waves and measure the time when sound waves bounce against the wall. Then use the time and the speed of ultrasonic waves to calculate the distance. The case should also act as a barrier to reflecting sound waves. Therefore, make sure that you do not only fills arduino, but also acts as a wall.
+The following figures were 3D modelling captures of a case with 3D printing.
+
 ![environment](./projects/img/environment.png) ![case](./projects/img/case.jpg)
 
 ### 3D Chassis Model
