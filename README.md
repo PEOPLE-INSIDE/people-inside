@@ -15,22 +15,28 @@ A real-time people counting system using ultrasonic sensors<br>
    - [About](#people-inside)
    - [Purpose](#our-purpose)
    - [Quick Start](#quick-start)  
-     
+
 <b>2.</b> [Getting Started](#getting-started)
    - [Installation Environment](#installation-environment)
    - [3D Printed Chassis](#3d-printed-chassis)
-   - [Basic Principle](#basic-principle)<br>
-**3.** [How To Use](#how-to-use)
+   - [Basic Principle](#basic-principle)  
+
+<b>3.</b> [How To Use](#how-to-use)
    - [Classifiaction Algorithm](#classifiaction-algorithm)
-   - [Random Forest](#random-forest)<br>
-**4.** [Performance](#performance)<br>
-**5.** [Components](#hardware)
+   - [Random Forest](#random-forest)  
+
+<b>4.</b> [Performance](#performance)  
+
+<b>5.</b> [Components](#hardware)
    - [Hardware](#hardware)
    - [Software](#software)
-   - [Open Source](#open-source)<br>
-**6.** [Developers](#developers)<br>
-**7.** [Paper](#paper)<br>
-**8.** [License](#license)
+   - [Open Source](#open-source)  
+
+<b>6.</b> [Developers](#developers)  
+
+<b>7.</b> [Paper](#paper)  
+
+<b>8.</b> [License](#license)  
 
 ## PEOPLE INSIDE
 University students takes classes according to the fixed timetable. At the meal time, too many people crowd into a cafeteria. Sometimes we must go to another cafeteria because there are no enough table. To take matters worse, we don't have much time, because another class begins soon. To have lunch, we have to wait for a seat in the cafeteria or go out to look for another cafeteria. After all, it's a fool's errand. From now we want to avoid this, We want to check the number of indoor people in advance. So, we made it, *PEOPLE-INSIDE*.<br>
