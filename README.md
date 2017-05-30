@@ -83,6 +83,7 @@ On the right is the arduino case we made. We recommend you using a 3D printer wh
 We also provide 3D model file for making arduino chassis.
 You can use this model if you have 3D printer.
 Below images are some snapshots 3D models that we provide.
+
 ![L1-1](./projects/img/model1_1.png)
 ![L1-2](./projects/img/model1_2.png)<br>
 ![L2-1](./projects/img/model2_1.png)
@@ -99,13 +100,59 @@ So, if you interpret the graph, you can see that the person initially did *IN*. 
 ## How To Use
 Before you use PEOPLE-INSIDE software, you have two options. Both methods are suggested, so you just pick what you want.
 
-- **Classification Algorithm** Classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
-- **Random Forest** Machine Learning with data sets what we collected.
+- **Classification Algorithmㅡ** Classification algorithm that classifies Serial datas which one is *IN* and *OUT*.
+- **Random Forestㅡ** Machine Learning with data sets what we collected.
 
 Did you choose?
 
-## Classifiaction Algorithm
+## Classification Algorithm
+Only one software tool is needed.
+- **Sketchㅡ** To use Classification Algorithm, `the sketch` tool must be installed.
+
+Once the tool installation has been completed, begin explaining the algorithm.
+Leave nothing between doors after initial installation. Because the algorithm begins with measuring distance N times between the door.
+
+*why?*
+Knowing the distance between the doors sets the standard. Then, calculate the average of the measured distances. And obtain a standard deviation as six sigma from the average. In other words, if the measured distance between the upperbound and the lowerbound, nothing passes. The reason for judging like this is because the measured distances by ultrasonic sensors are very sensitive and accurate.
+From the graph, you can see that the measured distances are not represented like linear line.
+
 ![graph](./projects/img/graph2.png)
+
+```
+Upperbound & Lowerbound = Average of distance1,2,3,4 ± 6σ
+```
+
+
+So, if the graph deviate from the bound, you realize something goes past the door.
+
+Let me explain why we used *four ultrasonic sensors*, not two.
+Initially, two sensors were used in the system. However, when the only two sensors were analyzed and compiled, unexpected events occurred. A typical example is that the measured distances by the two sensors go off at the same time. Without a single error. In this case, the count is an error. And if the count continues to accumulate, this small error becomes unacceptably large. So we increased the number of sensor to four to correct these errors. With four sensors, even one sensor's data is missing, system listens to the others. Increased the number of sensors to increase the accuracy of the system.
+
+After all, if we formulate the Classification algorithm in the way we describe, it looks like the following picture.
+
+![width](./projects/img/graph3.JPG)
+
+```
+𝒕_𝑨𝟏,𝒕_𝑩𝟏,𝒕_𝑪𝟏,𝒕_𝑫𝟏 = Time when distance of sensor decreases below lowerbound
+𝒕_𝑨𝟐,𝒕_𝑩𝟐,𝒕_𝑪𝟐,𝒕_𝑫𝟐  = Time when distance of sensor increases above lowerbound
+
+
+𝐑=|𝒕_𝑨𝟏−𝒕_𝑩𝟏|/(𝒕_𝑨𝟏−𝒕_𝑩𝟏)+|𝒕_𝑪𝟏−𝒕_𝑫𝟏|/(𝒕_𝑪𝟏−𝒕_𝑫𝟏)+|𝒕_𝑨𝟏−𝒕_𝑫𝟏|/(𝒕_𝑨𝟏−𝒕_𝑫𝟏)+|𝒕_𝑪𝟏−𝒕_𝑩𝟏|/(𝒕_𝑪𝟏−𝒕_𝑩𝟏 )
++|𝒕_𝑨𝟐−𝒕_𝑩𝟐|/(𝒕_𝑨𝟐−𝒕_𝑩𝟐)+|𝒕_𝑪𝟐−𝒕_𝑫𝟐|/(𝒕_𝑪𝟐−𝒕_𝑫𝟐)+|𝒕_𝑨𝟐−𝒕_𝑫𝟐|/(𝒕_𝑨𝟐−𝒕_𝑫𝟐)+(|𝒕_𝑪𝟐−𝒕_𝑩𝟐|)/(𝒕_𝑪𝟐−𝒕_𝑩𝟐 )
+
+If R>0, IN and if R<0, OUT
+```
+
+
+And there is one more reason for using four ultrasonic sensors. That is to measure multiple people. Usually one person passes by between the doors, but two dry men can pass by, and several people can pass by. We used width to solve this problem.
+
+![width](./projects/img/width.JPG)
+
+```
+𝒅_𝒘= 𝒅_𝑻−(𝒎𝒊𝒏⁡(𝒅_𝑨 )+𝒎𝒊𝒏⁡(𝒅_𝑪 ))
+𝒅_𝒘 is width of passing people
+```
+
 
 ## Random Forest
 ![rf](./projects/img/rf.jpg)<br>
@@ -123,6 +170,14 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 -->
 
 ## Performance
+The environment for our performance testing is as follows :<br>
+`room 306-B, IT building, Gachon University, Republic of Korea`
+
+We set 200 times as a test case and tested it several times. And the test results of one person passing door, the average error rate is 0.01. In other words, there are 1 to 3 errors in one test case (200 times).
+And test results of several people passing door, the average error rate is 0.06.
+You can also expect similar accuracy if you set the environment properly and apply the software.
+
+If the error rate is too high, it is recommended that the position of the ultrasonic sensors be well set again. This is because ultrasonic sensors are very sensitive.
 
 ## Hardware
 Click to link detail Specification.
