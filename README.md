@@ -258,7 +258,7 @@ Chris is a Software Engineer and Data Scientist. He loves everything related to 
 
 <img align="left" width="50" height="50" src="https://avatars2.githubusercontent.com/u/18107262?v=3&s=460">
 
-Martin is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
+Martin is a Software Engineer. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
 
 
 ## Paper
