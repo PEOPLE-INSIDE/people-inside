@@ -38,6 +38,7 @@ A real-time people counting system using ultrasonic sensors<br>
 
 <b>8.</b> [License](#license)  
 
+
 ## PEOPLE INSIDE
 University students takes classes according to the fixed timetable. At the meal time, too many people crowd into a cafeteria. Sometimes we must go to another cafeteria because there are no enough table. To take matters worse, we don't have much time, because another class begins soon. To have lunch, we have to wait for a seat in the cafeteria or go out to look for another cafeteria. After all, it's a fool's errand. From now we want to avoid this, We want to check the number of indoor people in advance. So, we made it, *PEOPLE-INSIDE*.<br>
 *PEOPLE INSIDE* is **a real-time people counting system using ultrasonic sensors**. It uses only four inexpensive ultrasonic sensors to determine the number of indoor personnel. And you can see this number in real time through the application.<br>
@@ -65,6 +66,7 @@ git clone https://github.com/PEOPLE-INSIDE/people-inside
 `\projects\3d_modeling` - Include our 3d model chassis for Arduino and ultrasonic sensors.
 
 `\projects\dataset` - Include our all signal dataset for training decision trees.
+
 
 
 ## Getting Started
@@ -110,6 +112,7 @@ So, if you interpret the graph, you can see that the person initially did *IN*. 
 
 ![principle](./projects/img/principle.png) ![graph](./projects/img/graph.PNG)
 
+
 ## How To Use
 Before you use PEOPLE-INSIDE software, you have two options. Both methods are suggested, so you just pick what you want.
 
@@ -117,6 +120,7 @@ Before you use PEOPLE-INSIDE software, you have two options. Both methods are su
 - **Random Forestㅡ** Machine Learning with data sets what we collected.
 
 Did you choose?
+
 
 ## Classification Algorithm
 Only one software tool is needed.
@@ -167,6 +171,7 @@ And there is one more reason for using four ultrasonic sensors. That is to measu
 ```
 
 
+
 ## Random Forest
 ![rf](./projects/img/rf.jpg)<br>
 The second method is classificate using Random Forest (RF) which is one of machine learning algorithm. RF is ensemble method of decision trees. It gives pretty high performance. We provide 2800(1400 each class) dataset, and already implementated in [example code](/projects/arduino/peopleinside.ino) our pre-train RF model by this dataset. Pre-train model was trained by Treebagger function of MATLAB software, and the number of trees are 50.
@@ -182,6 +187,7 @@ Random Forest 알고리즘은 Decision tree의 Ensemble 기법으로 높은 정�
 그렇기 때문에 당신이 우리의 모델을 사용하고 싶지 않다면, 직접 Data를 모아 모델을 만들어 사용 할 수도 있다.
 -->
 
+
 ## Performance
 The environment for our performance testing is as follows :<br>
 `room 306-B, IT building, Gachon University, Republic of Korea`
@@ -191,6 +197,7 @@ And test results of several people passing door, the average error rate is 0.06.
 You can also expect similar accuracy if you set the environment properly and apply the software.
 
 If the error rate is too high, it is recommended that the position of the ultrasonic sensors be well set again. This is because ultrasonic sensors are very sensitive.
+
 
 ## Hardware
 Click to link detail Specification.
@@ -202,6 +209,7 @@ Click to link detail Specification.
 * [Battery](https://www.amazon.com/Duracell-MN-1604-Pack-MN1604/dp/B004DE54AA/ref=as_li_ss_tl?ie=UTF8&qid=1452883612&sr=8-5&keywords=9v+battery&linkCode=sl1&tag=amandaghassae-20&linkId=71d1e29ec233a9482043ab86519787cd) X 1
 * Android Mobile Phone
 
+
 ## Software
 Click to Download software.
 * [Arduino 1.8.2](https://www.arduino.cc/en/Main/Software) (Arduino IDE Sketch)
@@ -212,6 +220,7 @@ Click to Download software.
   Hosting - [Hostinger](https://www.hostinger.kr/)<br>
   PHP<br>
   MySQL<br>
+
 
 ## Open Source
 * [Arduino](https://www.arduino.cc)<br>
@@ -228,6 +237,7 @@ Click to Download software.
 
 * [Sketchup](https://www.sketchup.com/ko)<br>
   SketchUp is 3D modeling software that's easy to learn and incredibly fun to use.
+
 
 ## Developers
 We have a core project team composed of:
@@ -249,6 +259,7 @@ Chris is a Software Engineer and Data Scientist. He loves everything related to 
 <img align="left" width="50" height="50" src="https://avatars2.githubusercontent.com/u/18107262?v=3&s=460">
 
 Martin is a Software Engineer, UI Designer, and author of many technical books & tutorials. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.
+
 
 ## Paper
 * **A Real-Time People Counting Algorithm using Ultrasonic Sensors** (2016), [[pdf]](./projects/paper/paper_2016.pdf)
