@@ -1,8 +1,8 @@
 <br>
 <p align="center">
-  <img src="projects/img/pi_logo.png"/><br><br>
+<img src="projects/img/pi_logo.png"/><br><br>
 A real-time people counting system using ultrasonic sensors<br>
- <a href="https://github.com/PEOPLE-INSIDE/people-inside"><strong>Visit PEOPLE INSIDE &raquo;</strong></a>
+<a href="https://github.com/PEOPLE-INSIDE/people-inside"><strong>Visit PEOPLE INSIDE &raquo;</strong></a>
 <br><br><br>
 </p>
 
@@ -12,25 +12,25 @@ A real-time people counting system using ultrasonic sensors<br>
 
 ## Table of contents
 <b>1.</b> [PEOPLE INSIDE](#people-inside)
-   - [About](#people-inside)
-   - [Purpose](#our-purpose)
-   - [Quick Start](#quick-start)  
+- [About](#people-inside)
+- [Purpose](#our-purpose)
+- [Quick Start](#quick-start)  
 
 <b>2.</b> [Getting Started](#getting-started)
-   - [Installation Environment](#installation-environment)
-   - [3D Printed Chassis](#3d-printed-chassis)
-   - [Basic Principle](#basic-principle)  
+- [Installation Environment](#installation-environment)
+- [3D Printed Chassis](#3d-printed-chassis)
+- [Basic Principle](#basic-principle)  
 
 <b>3.</b> [How To Use](#how-to-use)
-   - [Classifiaction Algorithm](#classifiaction-algorithm)
-   - [Random Forest](#random-forest)  
+- [Classifiaction Algorithm](#classifiaction-algorithm)
+- [Random Forest](#random-forest)  
 
 <b>4.</b> [Performance](#performance)  
 
 <b>5.</b> [Components](#hardware)
-   - [Hardware](#hardware)
-   - [Software](#software)
-   - [Open Source](#open-source)  
+- [Hardware](#hardware)
+- [Software](#software)
+- [Open Source](#open-source)  
 
 <b>6.</b> [Developers](#developers)  
 
@@ -215,28 +215,28 @@ Click to Download software.
 * [Arduino 1.8.2](https://www.arduino.cc/en/Main/Software) (Arduino IDE Sketch)
 * [Android Studio 2.3.2](https://developer.android.com/studio/index.html) (Android programming IDE)
 * [MATLAB R2017a](https://www.mathworks.com/products/new_products/latest_features.html) (License needed)<br>
-  For signal processing
+For signal processing
 * Web Server<br>
-  Hosting - [Hostinger](https://www.hostinger.kr/)<br>
-  PHP<br>
-  MySQL<br>
+Hosting - [Hostinger](https://www.hostinger.kr/)<br>
+PHP<br>
+MySQL<br>
 
 
 ## Open Source
 * [Arduino](https://www.arduino.cc)<br>
-  Open-source electronic prototyping platform enabling users to create interactive electronic objects.
+Open-source electronic prototyping platform enabling users to create interactive electronic objects.
 
 * [PHPoC](www.phpoc.com/)<br>
-  PHPoC Shield for Arduino connects Arduino to Ethernet or Wi-Fi networks.
+PHPoC Shield for Arduino connects Arduino to Ethernet or Wi-Fi networks.
 
 * [NewPing](http://playground.arduino.cc/Code/NewPing)<br>
-  NewPing is Arduino IDE library for easy control ultrasonic sensors.
+NewPing is Arduino IDE library for easy control ultrasonic sensors.
 
 * [SPI](https://www.arduino.cc/en/reference/SPI)<br>
-  Serial Peripheral Interface (SPI) is a synchronous serial data protocol used by microcontrollers for communicating with one or more peripheral devices quickly over short distances.
+Serial Peripheral Interface (SPI) is a synchronous serial data protocol used by microcontrollers for communicating with one or more peripheral devices quickly over short distances.
 
 * [Sketchup](https://www.sketchup.com/ko)<br>
-  SketchUp is 3D modeling software that's easy to learn and incredibly fun to use.
+SketchUp is 3D modeling software that's easy to learn and incredibly fun to use.
 
 
 ## Developers
